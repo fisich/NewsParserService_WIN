@@ -28,4 +28,4 @@ CREATE TABLE "news_source" (
   OIDS=FALSE
 );
 
-ALTER TABLE "news" ADD CONSTRAINT "news_fk0" FOREIGN KEY ("id_source") REFERENCES "news_source"("id");```
+ALTER TABLE "news" ADD CONSTRAINT "news_fk0" FOREIGN KEY ("id_source") REFERENCES "news_source"("id"); ```
