@@ -5,7 +5,7 @@ This service collect data from web-sites and store it to postgresql database
 ![alt text](https://github.com/fisich/NewsParserService_WIN/blob/master/Database%20Scheme.bmp?raw=true)
 
 # SQL script:
-```CREATE TABLE "news" (
+``` CREATE TABLE "news" (
 	"id" serial NOT NULL,
 	"title" varchar(255) NOT NULL UNIQUE,
 	"annotation" varchar(1023) NOT NULL,
